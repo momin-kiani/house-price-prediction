@@ -24,3 +24,23 @@ Clone the repository:
 ```bash
 git clone https://github.com/momin-kiani/house-price-prediction.git
 cd house-price-prediction
+
+## 📊 Example Outputs
+
+### Correlation Heatmap
+![Heatmap](assets/heatmap.png)
+
+### Actual vs Predicted Prices (Training Data)
+![Scatter](assets/scatter.png)
+
+---
+
+## 📈 Model Performance
+
+### Training Data
+- **R² Score:** 0.9436  
+- **Mean Absolute Error:** 0.1934  
+
+### Test Data
+- **R² Score:** 0.8338  
+- **Mean Absolute Error:** 0.3109  

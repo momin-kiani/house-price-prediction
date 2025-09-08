@@ -70,11 +70,11 @@ print(training_data_prediction)
 
 #R squared error
 score_1 = metrics.r2_score(Y_train,training_data_prediction)
-print("R squared error",score_1)
+print("Training R squared error",score_1)
 
 #Mean Absolute Error 
 score_2 = metrics.mean_absolute_error(Y_train,training_data_prediction)
-print("Mean absolute error",score_2)
+print("Training Mean absolute error",score_2)
 
 #Visualizing the actual prices and predicted prices
 plt.scatter(Y_train,training_data_prediction)
@@ -90,11 +90,11 @@ print(test_data_prediction)
 
 #R squared error
 score_1 = metrics.r2_score(Y_test,test_data_prediction)
-print("R squared error",score_1)
+print("Test R squared error",score_1)
 
 #Mean Absolute Error 
 score_2 = metrics.mean_absolute_error(Y_test,test_data_prediction)
-print("Mean absolute error",score_2)
+print("Test Mean absolute error",score_2)
 
 
 
